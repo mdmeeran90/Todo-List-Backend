@@ -4,10 +4,10 @@ const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(cors({origin:"https://todo-list-backend-4mvb.onrender.com"}));
+app.use(cors({ origin: "https://todo-list-backend-togu.onrender.com" }));
 
 // Connecting MongoDB
-mongoose.connect('mongodb://0.0.0.0:27017/todo-app')
+mongoose.connect('mongodb+srv://mohamedmeeran2104:root@cluster0.8ie5z.mongodb.net/todo-app')
     .then(() => {
         console.log('MongoDB Connected Successfully!')
     })
