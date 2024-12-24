@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "https://todo-list-backend-togu.onrender.com" }));
+app.use(cors({ origin: "https://todo-list-mern-project.netlify.app/" }));
 
 // Connecting MongoDB
 mongoose.connect('mongodb+srv://mohamedmeeran2104:root@cluster0.8ie5z.mongodb.net/todo-app')
