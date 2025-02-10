@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "https://todolist-mern-chi.vercel.app" }));
+app.use(cors({ origin: "https://todolist-mernproject.vercel.app" }));
 
 // Connecting MongoDB
 mongoose.connect('mongodb+srv://mohamedmeeran2104:root@cluster0.8ie5z.mongodb.net/todo-app')
